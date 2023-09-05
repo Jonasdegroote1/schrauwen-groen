@@ -1,0 +1,106 @@
+[
+  {
+    "firstName": "Jonas",
+    "name": "De Groote",
+    "email": "degrjona@student.arteveldehs.be",
+    "thumbnail": "https://avatars.githubusercontent.com/u/61138704?v=4",
+    "quote": "Bij ons stierft er nog niemand van den dust",
+    "portfolio": {
+      "github": "jonasdegroote1",
+      "linkedin": "jonas de groote"
+    },
+    "isTeacher": false,
+    "dateOfBirth": 966556800
+  },
+  {
+    "firstName": "Dario",
+    "name": "Melkebeke",
+    "email": "melkebekedario@gmail.com",
+    "thumbnail": "https://avatars.githubusercontent.com/u/114920948?v=4",
+    "quote": "Dont underestimate your value",
+    "portfolio": {
+      "github": "B0ENK",
+      "linkedin": "Dario Melkebeke"
+    },
+    "isTeacher": false,
+    "dateOfBirth": 1028055600
+  },
+  {
+    "firstName": "Sophie",
+    "name": "Babusiaux",
+    "email": "babusiaux.sophie@gmail.com",
+    "thumbnail": "https://avatars.githubusercontent.com/u/55799015?s=400&u=c4d7a1525fec272f5e3a5adedf48ee1f55b726df&v=4",
+    "quote": "If life gives you lemons, squeeze it in your enemy's eyes",
+    "portfolio": {
+      "github": "babusiauxsophie",
+      "linkedIn": "Babusiaux Sophie"
+    },
+    "isTeacher": false,
+    "dateOfBirth": 664243200
+  },
+  {
+    "firstName": "Philippe",
+    "name": "De Pauw - Waterchoot",
+    "email": "philippe.depauw@arteveldehs.be",
+    "thumbnail": "https://avatars.githubusercontent.com/u/390219?v=4",
+    "quote": "Let your ideas soar with wings",
+    "portfolio": {
+      "github": "Drdynscript",
+      "linkedIn": "Philippe De Pauw - Waterschoot"
+    },
+    "isTeacher": true,
+    "dateOfBirth": 504835200
+  },
+  {
+    "firstName": "Michael",
+    "name": "Vanderpoorten",
+    "email": "michael.vanderpoorten@arteveldehs.be",
+    "thumbnail": "https://avatars.githubusercontent.com/u/1913804?v=4",
+    "quote": "Dream, create, inspire",
+    "portfolio": {
+      "github": "yungpanda",
+      "linkedIn": "Michael Vanderpoorten"
+    },
+    "isTeacher": true,
+    "dateOfBirth": 706579200
+  },
+  {
+    "firstName": "Mathieu",
+    "name": "Spillebeen",
+    "email": "spillebeen@gmail.com",
+    "thumbnail": "https://avatars.githubusercontent.com/u/2550222?v=4",
+    "quote": "Java is to JavaScript what car is to Carpet.",
+    "portfolio": {
+      "github": "mathieuspil",
+      "linkedIn": "mathieuspil"
+    },
+    "isTeacher": true,
+    "dateOfBirth": 680918400
+  },
+  {
+    "firstName": "Sten",
+    "name": "Hullebroeck",
+    "email": "stenhul@gmail.com",
+    "thumbnail": "https://avatars.githubusercontent.com/u/113798772?v=4",
+    "quote": "Truly strong people are kind",
+    "portfolio": {
+      "github": "pgm-stenhullebroeck",
+      "linkedIn": "Sten Hullebroeck"
+    },
+    "isTeacher": false,
+    "dateOfBirth": 1060668480
+  },
+  {
+    "firstName": "Karel",
+    "name": "Stevens",
+    "email": "kstevens@gmail.com",
+    "thumbnail": "https://avatars.githubusercontent.com/u/62249850?v=4",
+    "quote": "Ik zijn nie zo ne grote",
+    "portfolio": {
+      "github": "karel-de-kleine",
+      "linkedIn": "Karel Stevens"
+    },
+    "isTeacher": false,
+    "dateOfBirth": 1060678480
+  }
+]

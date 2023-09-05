@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Developers Mashup</title>
+    <link rel="stylesheet" href="static/css/reset.css" />
+    <link rel="stylesheet" href="static/css/main.css" />
+  </head>
+  <body>
+    <header>
+      <div class="clock-digital__container"></div>
+      <div class="header__right">
+        <div class="weather"></div>
+        <div class="dog__toilets"></div>
+      </div>
+    </header>
+    <main>
+      <div class="people" id="people"></div>
+
+      <div>
+        <div class="people__cards"></div>
+        <div class="repo_information">
+          <div class="repos"></div>
+          <div class="followers"></div>
+        </div>
+      </div>
+
+      <div class="right">
+        <form action="#" method="post" id="formSearch">
+          <label for="txtSearch">Search</label>
+          <input
+            id="txtSearch"
+            name="search"
+            type="text"
+            class="input"
+            placeholder="Search"
+          />
+          <button type="submit">search</button>
+        </form>
+        <div id="search__output"></div>
+      </div>
+    </main>
+
+    <script src="static/js/services.js"></script>
+    <script src="static/js/main.js"></script>
+  </body>
+</html>
