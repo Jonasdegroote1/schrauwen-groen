@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="static/images/favicon_schrauwen_32x32.png" type="image/x-icon">
+  <link rel="stylesheet" href="static/css/reset.css">
+  <link rel="stylesheet" href="static/css/main.css">
+  <title>Contact</title>
+</head>
+
+<body>
+  <header>
+    <div class="outline">
+      <div class="top-header">
+        <ul class="header header__information">
+          <li>+ 60 jaar ervaring</li>
+          <li>Flexibele aanpak</li>
+          <li>Transparante communicatie</li>
+          <li>Uitgebreid machinepark</li>
+        </ul>
+        <ul class="header header__contact">
+          <li><a href="mail:info@schrauwen.be">info@schrauwen.be</a></li>
+          <li><a href="tel:050 28 17 76">050 28 17 76</a></li>
+        </ul>
+      </div>
+      <div class="header__bottom">
+        <a href="index.html"><img src="static/images/logo.svg" alt="logo" /></a>
+        <ul class="header__navigation">
+          <li><a href="aanleg.html">Aanleg</a></li>
+          <li><a href="onderhoud.html">Onderhoud</a></li>
+          <li><a href="references.html">Referenties</a></li>
+          <li><a href="contact.html">contacteer ons</a></li>
+        </ul>
+      </div>
+    </div>
+  </header>
+  </header>
+  <main>
+    <section class="hero">
+      <div class="outline">
+        <div class="hero__top">
+          <div class="hero__navigation">
+            <a href="index.html">Home</a>
+            <img src="static/images/scheiding.svg" alt="">
+            <a href="aanleg.html">Aanleg</a>
+          </div>
+          <div class="hero__information">
+            <h1>Contacteer ons</h1>
+            <p>Wenst u meer informatie over een van onze diensten of wilt u graag een offerte aanvragen? Neem
+              vrijblijvend contact met ons op. We proberen zo snel als mogelijk contact met u op te nemen.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section--light-green">
+      <div class="outline section__form">
+        <h2>Stuur ons een bericht</h2>
+        <p>Vul onderstaand formulier in om ons een bericht te sturen. We contacteren je zo snel als mogelijk meer
+          informatie voor een gesprek of afspraak.</p>
+
+        <div class="contact-form">
+          <form action="" method="get">
+            <div class="contact-form-block">
+              <div class="form-column">
+                <label for="name" class="bold">Ik zoek informatie als <span class="orange">*</span></label>
+                <div>
+                  <input type="radio" id="Particulier" name="drone" value="Particulier">
+                  <label for="Particulier">Particulier</label>
+                </div>
+                <div>
+                  <input type="radio" id="Bedrijf/instelling" name="drone" value="Bedrijf/instelling">
+                  <label for="Bedrijf/instelling">Bedrijf/instelling</label>
+                </div>
+                <div>
+                  <input type="radio" id="Openbaar bestuur" name="drone" value="Openbaar bestuur">
+                  <label for="Openbaar bestuur">Openbaar bestuur</label>
+                </div>
+              </div>
+              <div class="form-column">
+                <label for="bedrijfsnaam" class="bold">Bedrijfsnaam/organisatie</label>
+                <input type="text" name="bedrijfsnaam" id="bedrijfsnaam" placeholder="Uw bedrijf/organisatie">
+              </div>
+            </div>
+            <div class="contact-form-block form-column">
+              <label for="provincie" class="bold">Provincie <span class="orange">*</span></label>
+              <select name="provincie" id="Provincie">
+                <option value="West-Vlaanderen">West-Vlaanderen</option>
+                <option value="Oost-Vlaanderen">Oost-Vlaanderen</option>
+                <option value="Antwerpen">Antwerpen</option>
+                <option value="Henegouwen">Henegouwen</option>
+                <option value="Limburg">Limburg</option>
+                <option value="Luik">Luik</option>
+                <option value="Luxemburg">Luxemburg</option>
+                <option value="Namen">Namen</option>
+                <option value="Vlaams-Brabant">Vlaams-Brabant</option>
+                <option value="Waals-Brabant">Waals-Brabant</option>
+              </select>
+            </div>
+            <div class="contact-form-block">
+              <div class="form-column">
+                <label for="Familienaam" class="bold">Familienaam <span class="orange">*</span></label>
+                <input type="text" name="Familienaam" id="Familienaam" placeholder="Uw familienaam">
+              </div>
+              <div class="form-column">
+                <label for="Voornaam" class="bold">Voornaam <span class="orange">*</span></label>
+                <input type="text" name="Voornaam " id="Voornaam " placeholder="Uw voornaam">
+              </div>
+            </div>
+            <div class="contact-form-block">
+              <div class="form-column">
+                <label for="Telefoonnummer" class="bold">Telefoonnummer <span class="orange">*</span></label>
+                <input type="tel" name="Telefoonnummer " id="Telefoonnummer " placeholder="Uw telefoonnummer">
+              </div>
+              <div class="form-column">
+                <label for="E-mailadres" class="bold">E-mailadres <span class="orange">*</span></label>
+                <input type="email" name="E-mailadres" id="E-mailadres" placeholder="Uw e-mailadres">
+              </div>
+            </div>
+            <div class="contact-form-block">
+              <div class="form-column last">
+                <label for="bericht" class="bold">Uw bericht <span class="orange">*</span></label>
+                <textarea name="bericht" id="bericht" placeholder="Uw bericht" cols="130" rows="3"></textarea>
+              </div>
+            </div>
+            <div class="checkmark">
+              <label for="checkbox">
+                <input type="checkbox" name="checkbox" id="checkbox"> Ik ga akkoord met het <a href="#"
+                  class="privacy">Privacybeleid</a>
+              </label>
+            </div>
+
+            <div class="contact-form-block">
+              <input type="submit" value="verzenden" class="button">
+            </div>
+          </form>
+        </div>
+    </section>
+  </main>
+  <footer class="section--dark-green">
+    <div class="outline">
+      <div class="section--green footer__top">
+        <div class="footer__top-left">
+          <h2>
+            Neem vrijblijvend contact met ons op voor een offerte of meer
+            informatie over een van onze diensten.
+          </h2>
+          <div class="section__contact">
+            <div>
+              <h3>Geef ons een seintje</h3>
+              <a href="#">050 28 17 76</a>
+            </div>
+            <div>
+              <h3>Stuur ons een mailtje</h3>
+              <a href="#">info@schrauwen.be</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bottom section--dark-green">
+        <img src="static/images/logo_light.svg" alt="logo_light" />
+        <div>
+          <h3>Handige links</h3>
+          <ul>
+            <li><a href="aanleg.html">Aanleg</a></li>
+            <li><a href="onderhoud.html">Onderhoud</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="#">Nieuws</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Over Schrauwen Groen</h3>
+          <ul>
+            <li><a href="#">Werkwijze</a></li>
+            <li><a href="#">Historiek</a></li>
+            <li><a href="#">Team</a></li>
+            <li><a href="#">Jobs</a></li>
+          </ul>
+        </div>
+        <div class="footer__last-column">
+          <h3>Contactgegevens</h3>
+          <ul>
+            <li><a href="#">St-Elooisstraat 80, 8020 Ruddervoorde</a></li>
+            <li class="footer--underline">
+              <a href="#">info@schrauwen.be</a>
+            </li>
+            <li class="footer--underline"><a href="#">050 28 17 76</a></li>
+            <li><a href="#">BTW BE 0632 500 871</a></li>
+          </ul>
+        </div>
+        <p>
+          Oorspronkelijk design van De Formatie. Met trots nagemaakt door
+          Jonas De Groote voor het vak @work1 in opdracht van
+          Arteveldehogeschool.
+        </p>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
